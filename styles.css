@@ -188,7 +188,7 @@ HIGHLIGHTS
    position: absolute;
    width: 101vw;
    height: 12vw;
-   top: 1px;
+   bottom: 1px;
    left: 0;
    z-index: 1;
    background-size: cover;
@@ -207,6 +207,7 @@ HIGHLIGHTS
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-height: 500px; 
 }
 
 .highlight__para {
@@ -221,6 +222,7 @@ HIGHLIGHTS
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 4px;
     font-size: 32px;
     margin-bottom: 24px;
@@ -234,11 +236,11 @@ HIGHLIGHTS
 
 /* 
 
-FEATURES
+FEATURED
 
 */
 
-#features {
+#featured {
     padding-top: 8vw;
     background-color: rgba(155, 66, 214, 0.1);
 }
