@@ -449,7 +449,7 @@ footer {
 }
 
 /* SMALL PHONES, LARGE SMARTPHONES */
-@media (max-width: 550px;) {
+@media (max-width: 550px) {
     .btn__menu {
         display: block;
     }
@@ -463,7 +463,7 @@ footer {
        margin-bottom: 24px;
     }
 
-    .hightlight:not(:last-child) {
+    .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
 }
