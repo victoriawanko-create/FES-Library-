@@ -152,6 +152,12 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*
 
 HIGHLIGHTS
@@ -247,6 +253,7 @@ FEATURED
 
 .books {
     display: flex;
+    flex-wrap: wrap
 }
  
 .book {
@@ -293,3 +300,12 @@ FEATURED
     color: #bfbfbf;
 }
 
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+    background-color: rgba(155, 66, 214, 0.1);
+}
